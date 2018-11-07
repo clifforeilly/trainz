@@ -17,11 +17,18 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
+    String output;
 
     public Application() {
 
-
+        output = "Hello World Yo!";
 
     }
+
+
+    public String getResponse() {
+        return output;
+    }
+
 
 }
